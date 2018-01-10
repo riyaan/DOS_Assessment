@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test1", "Test1", "{A1CEDA65-F922-4EE3-AF36-DF71B8F6DF37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorSum", "Test1\VectorSum\VectorSum.csproj", "{E7095253-75B1-440D-A212-88B1D373750E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorSum", "VectorSum\VectorSum.csproj", "{E7095253-75B1-440D-A212-88B1D373750E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
