@@ -1,5 +1,5 @@
 ﻿using System;
-
+//
 namespace Test2.PascalsTriangle
 {
     public class Blaise
