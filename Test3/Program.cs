@@ -13,8 +13,9 @@ namespace Test3.Solid
             shape.Width = 3;
 
             double result = shape.CalculateArea();
-            shape.Add(new DataProvider(), new SqlConnection());
+            //shape.Add(new DataProvider(), new SqlConnection());
 
+            // expected result = 12
             Console.WriteLine(result);
         }
     }
