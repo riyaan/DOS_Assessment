@@ -12,6 +12,7 @@ namespace Test2.UnitTests
         private void Setup()
         {
             b = new Blaise(5);
+            //
         }
 
         [TestMethod]
