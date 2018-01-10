@@ -1,15 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 
-namespace Solid
+namespace Test3.Solid
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Shape shape = new Shape();
+            shape.Type = ShapeType.Rectangle;
+            shape.Height = 4;
+            shape.Width = 3;
+
+            double result = shape.CalculateArea();
+            shape.Add(new DataProvider(), new SqlConnection());
+
+            Console.WriteLine(result);
         }
     }
 }
